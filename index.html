@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/xx.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qader Baghi</title>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;
+        
+      }
+      body {width:100%; overflow-x:hidden; margin:0; }
+      html {width:100%; overflow-x:hidden; }
+      
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <ul>
+          <li id="projects-btn">Projects</li>
+          <li id="channel-btn">Channel</li>
+          <li id="contact-btn">Contact</li>
+        </ul>
+      </nav>
+      <div class="banner flex">
+        <div class="logo">
+          <h1 class="atomic-title">Qader Baghi</h1>
+        </div>
+        <div class="banner-and-aboutme">
+          <div class="canvas-container" id="canvas-container">
+            <canvas></canvas>
+          </div>
+          <img src="./images/spaceman.png" class="spaceman" alt="">
+          <div class="custom-shape-divider-bottom-1648581321">
+            <svg class="space-curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:rgba(5,3,31,1);stop-opacity:1" />
+                  <stop offset="76%" style="stop-color:rgba(3,3,66,1);stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:rgba(1,1,27,1);stop-opacity:1" />
+                </linearGradient>
+              </defs>
+                <path fill="url(#grad1)" d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path fill="url(#grad1)" d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path fill="url(#grad1)" d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        </div>
+      </div>
+      <div class="about-me hidden">
+        <div class="profile-picture">
+          <img src="./images/qader.jpeg" alt="">
+        </div>
+        <h1 class="manifesto">📖 Manifesto</h1>
+        <p>I am a self-taught web developer with experience in the MERN stack (MongoDB, Express, React and NodeJS). I've always had an interest in Computer science, from Quantum Computing to simply replacing a ram stick on your motherboard, because your desktop won’t turn on, and is only making a beeping noise.</p>
+        <p>What is my main goal? Web development. I'm currently working on a SaaS (software as a service), similar to Sales Force, but more user friendly, with a minimum training required to use. I have a few personal projects made, but I currently work in technical support with the hopes of becoming a full time developer, rather than just coding in my free time.
+        </p>
+        <article>
+          <p>What I believe programming is all about: short answer is - the customer. 
+            People don't always want to figure stuff out for themselves, and don't feel like doing things on their own, therefore the job of a programmer is to assume the customer:</p>
+                <p>1 - does not understand</p>
+                <p>2 - does not feel like doing it</p>
+          <p>So, we automate everything and make it simple. They want to sign in? Make it possible for them to sign in with Google rather than remembering passwords. They forgot their password? Enable use of LastPass. They get asked the dreaded question - “are you a robot?”, simply include just the click of a button that follows their cursor, rather than clicking on annoying traffic lights and street signs.
+          </p>
+        </article>
+      </div>
+      <section class="project-section">
+        <img src="./images/projects-curve.svg" class="curve-svg" alt="">
+        <div class="projects hidden">
+          <h1 class="section-title">👩🏽‍🚀 Projects</h1>
+          <div class="project-grid">
+            <div class="grid">
+
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/1.png"> 
+                </div>
+                <div class="card-content">
+                  <p>An online watch store utilising the Stripe API to make payments, use a fake debit card number of (4242 4242 4242 4242) to parchase a product</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://tissotstore.herokuapp.com/index.html">Tissot Watch Store</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/2.png"> 
+                </div>
+                <div class="card-content">
+                  <p>An app that displays NASA'a discoveries in the last week, enter your date of birth to find out what NASA discovered on your date of birth.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://spacetime-here-n-now.web.app/">SpaceTime Today</a>
+                </div>
+              </div>
+            
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/3.png"> 
+                </div>
+                <div class="card-content">
+                  <p>Built in the MERN stack, this app is designed for making and applying to job posts, it uses the google maps API to show jobs near you - to sign in, you'll need to verify your email as it also uses sendgrid for verification.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://jumpstartcareer.herokuapp.com/">Jump Start Career</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/4.png"> 
+                </div>
+                <div class="card-content">
+                  <p>A REST API with high level security of password hashing, and JWT for authentication, click the link to view its code on GitHub, to use it you'll need postman or insomnia to sent requests to the API</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/AQbaghi/task-manager-api-nodecourse">Task Manager API Repo</a>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-image">
+                  <img src="./images/5.png"> 
+                </div>
+                <div class="card-content">
+                  <p>A Chat app built with firebase and google Auth</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://atomic-chat-30a14.web.app/">Chat App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="tech-stacks">
+        <img src="./images/tech-stack-curve.svg" class="curve-svg" alt="">
+        <div class="tech-stack-content">
+          <div class="tech-group-1 hidden">
+              <h1 class="section-title">💼 Tech Stack</h1>
+            <div class="tech-stack-flex">
+              <div class="tech-element">
+                <h3 class="tech-title">HTML</h3>
+                <img src="./images/html.png" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">JavaScript</h3>
+                <img src="./images/javascript.svg" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">CSS</h3>
+                <img src="./images/css.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tech-group-2 hidden">
+              <h1 class="section-title">MERN</h1>
+            <div class="tech-stack-flex">
+              <div class="tech-element">
+                <h3 class="tech-title">MongoDB</h3>
+                <img src="./images/mongo.svg" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">Express</h3>
+                <img src="./images/express.png" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">React</h3>
+                <img src="./images/react.svg" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">Node.JS</h3>
+                <img src="./images/node.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tech-group-3 hidden">
+              <h1 class="section-title">Fun & useful</h1>
+            <div class="tech-stack-flex">
+              <div class="tech-element">
+                <h3 class="tech-title">Docker</h3>
+                <img src="./images/docker.png" id="docker-image-exception" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">Firebase</h3>
+                <img src="./images/firebase.svg" alt="">
+              </div>
+              <div class="tech-element">
+                <h3 class="tech-title">Linux</h3>
+                <img src="./images/linux.png"  alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="youtube">
+        <img src="./images/youtube-curve.svg" class="curve-svg" alt="">
+        <div class="my-channel hidden">
+          <h1>📺 My youtube channel</h1>
+          <img class="atomiccode-logo" src="./images/xx.png" alt="">
+        </div>
+        <div class="youtube-video-section">
+          <img class="curve-svg" src="./images/content-curve.svg" alt="">
+          <div class="content">
+            <h2 class="video-title">JSON - Everything you need to know In 3 minutes</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/ScU6xDEwDDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="playlist">
+              <ul>
+                <li id="https://www.youtube.com/embed/WRpfuKq-Am8">Node.js - build a Web Server - The beginners guide</li>
+                <li id="https://www.youtube.com/embed/6CXcFUFHTLg">5 Misconceptions about JavaScript - how JavaScript works under the hood</li>
+                <li id="https://www.youtube.com/embed/ScU6xDEwDDQ">JSON - Everything you need to know In 3 minutes</li>
+                <li id="https://www.youtube.com/embed/53u0wxqeOE0">REST API explained - In 3 minutes</li>
+                <li id="https://www.youtube.com/embed/xetknA-CLL8">Express, routers, and post man - build a REST API part 1</li>
+                <li id="https://www.youtube.com/embed/YIOSYmDdZ5w">Middleware explained - Node.JS</li>
+                <li id="https://www.youtube.com/embed/4aDxRLkw8Bs">2 minutes of MongoDB</li>
+                <li id="https://www.youtube.com/embed/_V8jmQNuSQg">MongoDB and Node.js - connection, and CRUD opporations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-section">
+        <img class="curve-svg" src="./images/contact-curve.svg" alt="">
+        <div class="email-me">
+          <div style="color: #0c002e;">
+            <form class="col s12" action="https://formsubmit.co/aqbaghi@atomiccode.uk" method="POST">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input name="name" id="icon_prefix" type="text" class="validate" required>
+                  <label for="icon_prefix">Full Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_telephone" name="email" type="email" class="validate" required>
+                  <label for="icon_telephone">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" name="message" class="materialize-textarea" required></textarea>
+                  <label for="icon_prefix2">Message</label>
+                </div>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img class="curve-svg" src="./images/footer-curve.svg" alt="">
+        <footer class="page-footer" style="background-color: #001029;">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 id="footer-title" class="white-text">Atomic Code</h5>  
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <ul>
+                  <li>+44 7592 7060645</li>
+                  <li>aqbaghi@atomiccode.uk</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2022 Copyright
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
